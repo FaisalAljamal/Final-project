@@ -1,0 +1,97 @@
+body {
+    font-family: serif;
+    margin: 0px;
+}
+
+.outer {
+    position: absolute;
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(32, 169, 177, 1);
+}
+
+.inner {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.9);
+    width: 341px;
+    height: 441px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 450px;
+    margin-right: 450px;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.first {
+    position: relative;
+    height: 8px;
+    width: 99%;
+    background-color: rgba(0, 0, 0, 1);
+    border-top: 4px rgba(0, 0, 0, 1) solid;
+    border-bottom: 4px rgba(0, 0, 0, 1) solid;
+    border-left: 2px rgba(0, 0, 0, 1) solid;
+    border-right: 2px rgba(0, 0, 0, 1) solid;
+}
+
+.second {
+    position: relative;
+    height: 110px;
+    margin: 0px;
+    width: 100%;
+}
+
+.second1 {
+    width: 90%;
+    text-align: right;
+    margin: 0px 20px;
+    padding-top: 10px;
+    font-size: 16px;
+    color: #808080;
+}
+
+.para {
+    width: 90%;
+}
+
+.second2 {
+    width: 90%;
+    text-align: right;
+    margin: 10px 20px;
+    height: 60px;
+    font-size: 30px;
+    color: #ffffff;
+}
+
+.third {
+    position: absolute;
+    top: 200px;
+    left: 450px;
+    height: 390px;
+    margin: 0px;
+    width: 350px;
+}
+
+.fun {
+    width: 81px;
+    height: 54px;
+    margin: 2px;
+    float: left;
+    border-width: 0px;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: rgba(48, 48, 48, 1);
+    color: #808080;
+}
+
+.num {
+    width: 81px;
+    height: 54px;
+    margin: 2px;
+    float: left;
+    border-width: 0px;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: rgba(33, 33, 33, 1);
+    color: #ffffff;
+}
